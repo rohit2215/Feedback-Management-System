@@ -121,7 +121,7 @@ Fetches and displays a list of all feedback entries from the backend.
 
 App.tsx:
 
-Main component that renders the FeedbackForm and FeedbackList components.
+Main component written in Typescript that renders the FeedbackForm and FeedbackList components.
 Manages the state for triggering a refresh of the feedback list after new feedback is submitted.
 
 CSS Files:
