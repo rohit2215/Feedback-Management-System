@@ -69,16 +69,16 @@ The server will start on http://localhost:3000.
 Backend API Endpoints
 Retrieve all feedback entries:
 
-URL: /feedback
+1.URL: /feedback
 Method: GET
 Response: Returns a list of all feedback entries.
 Submit new feedback:
 
-URL: /feedback
+2.URL: /feedback
 Method: POST
 Body:
 json
-Copy code
+
 {
   "name": "string",
   "feedback": "string"
@@ -107,6 +107,7 @@ feedback.controller.ts: Handles incoming HTTP requests related to feedback.
 feedback.module.ts: The module that encapsulates feedback-related components.
 feedback.service.ts: Contains business logic for managing feedback entries.
 create-feedback.dto.ts: Data Transfer Object for creating new feedback entries.
+
 Frontend
 
 FeedbackForm.tsx:
